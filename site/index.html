@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="app">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no" />
+    <title>Test Map</title>
+    <link rel="stylesheet" href="/4.0/4.0/dijit/themes/claro/claro.css" />
+    <link rel="stylesheet" href="/4.0/4.0/esri/css/main.css" />
+    <script src="angular/angular.js"></script>
+     <style type="text/css">
+            html, body, .esri-view {
+                padding: 0;
+                margin: 0;
+                height: 100%;
+                width: 100%;
+            }
+        </style>
+  </head>
+    <body ng-app="app">
+      <map-view></map-view>
+        <script src="/4.0/4.0/init.js"></script>
+        <script src="angular-esri-map/dist/angular-esri-map.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>

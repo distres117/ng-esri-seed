@@ -1,0 +1,23 @@
+{
+  "name": "ngesri",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "distres117 <omcrobbie@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "bootstrap": "^3.3.7",
+    "angular-esri-map": "^2.0.0",
+    "arcgis-js-api": "^4.0.0"
+  }
+}
